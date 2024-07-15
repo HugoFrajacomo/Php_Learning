@@ -41,10 +41,28 @@ PHP é uma linguagem de programação fracamente tipada. Isso significa que o PH
 integers: Números inteiros posisivos e negativos <br>
 ![code](https://github.com/user-attachments/assets/4b63ef0d-06c4-4e6c-bd04-b93bb53d817a)
 string: Sequencia de caracteres
+float: Número com casas decimais contendo "." (ponto) como separador também podem ser negativos.
+Boolean: True / False (0, 0.0, "0", [], NULL -> Também são consideredos como falso)
+Arrey: [] dados devem ser separados por virculas. (Não necessáriamente precisam ter o mesmo tipo de dados
 
-
-obs: como verificar qual o tipo de uma variável:
+obs1: como verificar qual o tipo de uma variável:
 ![code](https://github.com/user-attachments/assets/fbe30f86-4295-432a-8d86-130d7884d58f)
+
+obs2: Aspas duplas interpretam variáveis e simples não interpretam na hora de impromir os valores na tela
+![code](https://github.com/user-attachments/assets/18c4979c-3f47-44d9-849e-35e1a9e53f66)
+
+obs3: Quando imprimir "echo true" o valor apresentado será 1. Para apresentar verdadeiro devemos fazer o seguinte: 
+![code](https://github.com/user-attachments/assets/369cc225-134a-487e-bed7-794ce133cc9c)
+
+obs4: Para <b>Imprimir um Arrey </b><br>
+Utilizamos a função "print_r" ou $arr_n[index] para imprimir o arrey de um index específico
+![code](https://github.com/user-attachments/assets/e6b7bd0c-b2b1-4dc7-bb83-8433eaa35dde)
+
+
+Caso seja falso nada será impresso. 
+
+
+
 
 
 
