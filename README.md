@@ -34,16 +34,19 @@ echo, insteadof, else, interface, namespasce, pow, _DIR_, _FILE_, endif, print, 
 
 phpinfo() - Mostra todas as dependências do projeto e seus respectivas versões e configurações.
 
-## Tipo de dados
+## Tipo de dados - Pasta 3
 
 PHP é uma linguagem de programação fracamente tipada. Isso significa que o PHP permite operações entre variáveis de diferentes tipos sem necessidade de conversões explícitas. 
 
-integers: Números inteiros posisivos e negativos <br>
+<b>integers:</b> Números inteiros posisivos e negativos <br><br>
 ![code](https://github.com/user-attachments/assets/4b63ef0d-06c4-4e6c-bd04-b93bb53d817a)
-string: Sequencia de caracteres
-float: Número com casas decimais contendo "." (ponto) como separador também podem ser negativos.
-Boolean: True / False (0, 0.0, "0", [], NULL -> Também são consideredos como falso)
-Arrey: [] dados devem ser separados por virculas. (Não necessáriamente precisam ter o mesmo tipo de dados
+<b>string:</b> Sequencia de caracteres<br><br>
+<b>float:</b> Número com casas decimais contendo "." (ponto) como separador também podem ser negativos.<br><br>
+<b>Boolean:</b> True / False (0, 0.0, "0", [], NULL -> Também são consideredos como falso)<br><br>
+<b>Arrey:</b> [ ] dados devem ser separados por virculas. (Não necessáriamente precisam ter o mesmo tipo de dados<br><br>
+<b>Arrey associativo:</b> permite colocar definir uma chava velor para seu arrey. Desta forma podemos alterar o indice ao qual um valor é atribuido. Ex: <br><br>
+![code](https://github.com/user-attachments/assets/3cb1eb1e-ea9c-4f3d-8489-008fb5ad0062)
+<b>NULL:</b> Também é possivel atribuir uma variável nula para inicializar ela sem quaquer valor.
 
 obs1: como verificar qual o tipo de uma variável:
 ![code](https://github.com/user-attachments/assets/fbe30f86-4295-432a-8d86-130d7884d58f)
@@ -58,8 +61,26 @@ obs4: Para <b>Imprimir um Arrey </b><br>
 Utilizamos a função "print_r" ou $arr_n[index] para imprimir o arrey de um index específico
 ![code](https://github.com/user-attachments/assets/e6b7bd0c-b2b1-4dc7-bb83-8433eaa35dde)
 
-
 Caso seja falso nada será impresso. 
+
+## Variáveis - Pasta 7
+
+- Declaração de Variável (Declara-se utilizando o "$") 
+- Declaração de variável por meio de outra variável (Declara-se utilizando "$$")
+  ![code](https://github.com/user-attachments/assets/5da32661-1647-4cd6-b5ac-52e16dd82832)
+- Variável por referência (Declara-se utilizando =&). Caso mude a variável de referência a referenciada muda o valor. O mesmo vale da forma contrária.
+
+## Escopo
+
+- Local: variável declarada em uma função;
+- Global: variável declaradas fora de funções;
+- Static: variável declarada dentro da função, porém seu valor permanace entre chamadas da função
+- Parâmetros de função: variáveis passadas para uma função, podendo ser utilizadas ao longa da mesma.
+
+## Objetos
+
+<b>Arquivo: 6_Objetos</b>
+
 
 
 
