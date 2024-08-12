@@ -70,12 +70,14 @@ Caso seja falso nada será impresso.
   ![code](https://github.com/user-attachments/assets/5da32661-1647-4cd6-b5ac-52e16dd82832)
 - Variável por referência (Declara-se utilizando =&). Caso mude a variável de referência a referenciada muda o valor. O mesmo vale da forma contrária.
 
-## Escopo
+## Escopo - Pasta 7
 
 - Local: variável declarada em uma função;
-- Global: variável declaradas fora de funções;
+- Global: variável declaradas fora de funções (utiliza-se palavre reservada "global" para acessar variável dentro de funções);
 - Static: variável declarada dentro da função, porém seu valor permanace entre chamadas da função
 - Parâmetros de função: variáveis passadas para uma função, podendo ser utilizadas ao longa da mesma.
+
+## Expressoes e Operadores
 
 ## Objetos
 
